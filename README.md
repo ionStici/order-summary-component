@@ -1,25 +1,33 @@
-# **Order summary card solution**
+# Order summary card solution
 
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
 
 ## Table of contents
 
+-   [Screenshot](#screenshot)
+-   [Links](#links)
+-   [Built with](#built-with)
+-   [Author](#author)
+
 ## Screenshot
+
+![](./images/screenshot.png)
 
 ## Links
 
-- [Solution URL]()
-- [Live Site URL]()
+-   [Solution URL](https://github.com/ionStici/order-summary-component)
+-   [Live Site URL](https://ionstici.github.io/order-summary-component)
 
 ## Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox and CSS Grid
-
-## What I learned
+-   Semantic HTML5 markup
+-   Flexbox
 
 ## Author
+
+-   [GitHub](https://github.com/ionStici)
+-   [Frontend Mentor](https://www.frontendmentor.io/profile/ionStici)
+-   [Twitter](https://twitter.com/ionStici_)
 
 <!-- ## Front-end Style Guide
 - Pale blue: hsl(225, 100%, 94%)
