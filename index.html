@@ -7,26 +7,41 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <title>Order summary card</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
+    
+    <main class="main">
+        <img class="bg-pattern-desktop" src="./images/pattern-background-desktop.svg" alt="Background pattern">
 
+        <section class="card">
+            <img class="card__hero-img" src="./images/illustration-hero.svg" alt="Happy person listening to music (Illustration)">
 
+            <h1 class="heading-1">Order Summary</h1>
 
+            <p class="paragraph">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
 
-  <!-- Order Summary
+            <div class="card-plan-wrapper">
+                <img class="card__plan__icon" src="" alt="">
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+                <div class="card__plan__box">
+                    <h2 class="card__plan__title">Annual Plan</h2>
+                    <p class="card__plan__price">$59.99/year</p>
+                </div>
 
-  Annual Plan
-  $59.99/year
+                <button class="card__plan__btn">Change</button>
+            </div>
 
-  Change
-
-  Proceed to Payment
-  Cancel Order -->
-  
+            <button>Proceed to Payment</button>
+            <button>Cancel Order</button>
+        </section>
+        
+    </main>
 
 </body>
 </html>
