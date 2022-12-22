@@ -61,12 +61,13 @@ body {
 /* CARD GENERAL STYLES */
 
 .card {
-    width: 45rem;
+    max-width: 45rem;
     height: 69.7rem;
     background-color: #fff;
     border-radius: 2rem;
     overflow: hidden;
     box-shadow: 0 4rem 4rem -2rem rgba(13, 48, 189, 0.1518);
+    margin: 0 2.4rem;
 }
 
 .card__hero-img {
@@ -172,6 +173,70 @@ body {
 
 .btn__cancel:active {
     transform: scale(0.95);
+}
+
+/* MEDIA QUERIES */
+
+/* 448/16=28 */
+@media only screen and (max-width: 28rem) {
+    .card {
+        /* height: 56.7rem; */
+        height: revert;
+    }
+
+    .card__hero-img {
+        height: 16rem;
+    }
+
+    .card__box {
+        padding: 3.2rem 2.4rem 3.2rem 2.4rem;
+    }
+
+    .heading-1 {
+        font-size: 2.2rem;
+    }
+
+    .paragraph {
+        font-size: 1.5rem;
+        margin: 0 auto;
+        margin-bottom: 2.4rem;
+        max-width: 27rem;
+    }
+
+    .card__plan-wrapper {
+        margin-bottom: 2.4rem;
+        padding: 1.7rem 1.6rem;
+    }
+
+    .card__plan__title {
+        font-size: 1.4rem;
+    }
+
+    .card__plan__price {
+        font-size: 1.4rem;
+    }
+
+    .card__plan__btn {
+        font-size: 1.3rem;
+    }
+
+    .btn__cta {
+        margin-bottom: 2.4rem;
+    }
+}
+
+/* 380/16=23.75 */
+@media only screen and (max-width: 23.75em) {
+    .card {
+        margin: 0;
+    }
+}
+
+/* 352/16=22 */
+@media only screen and (max-width: 22em) {
+    html {
+        font-size: 9px;
+    }
 }
 
 /* END */
